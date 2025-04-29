@@ -5,15 +5,7 @@ Telegram
 Node.js
 License: MIT
 
-🌍 Creator Identity
-When asked about its origins, the bot proudly responds:
 
-"I was created by Biruk from Ethiopia 🇪🇹, an emerging software engineer passionate about building useful tools!"
-
-Try it:
-
-You: Who made you?
-@burak_ai_bot: I was created by Biruk from Ethiopia 🇪🇹...
 ✨ Key Features
 Smart Q&A - Handles both casual chats and technical queries
 
