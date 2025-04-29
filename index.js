@@ -8,8 +8,8 @@ import { google } from "@ai-sdk/google";
 import { generateText } from "ai";
 
 const app = express();
-const BOT_TOKEN = "7739208410:AAEkscciYQttsXZmhqNhAwmTZw6er4-rwiw";
-const TELEGRAM_API=`https://api.telegram.org/bot${BOT_TOKEN}` // Your actual bot token
+const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN; // Your actual bot token
+const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}`; // Your actual bot token
 
 app.use(cors());
 app.use(express.json());
